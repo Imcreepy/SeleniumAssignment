@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Assignment_1">
+              <span class="suite-name border-skipped">Assignment 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Assignment_1">
+                    <span>C:\Users\Mahesh\Documents\GitHub\Git-Way2\maven_way2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Assignment_1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Assignment_1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Assignment_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Assignment_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Assignment_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Assignment_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,  5 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Assignment_1" class="hide-methods skipped suite-Assignment_1"> (hide)</a> <!-- hide-methods skipped suite-Assignment_1 -->
+                      <a href="#" panel-name="suite-Assignment_1" class="show-methods skipped suite-Assignment_1"> (show)</a> <!-- show-methods skipped suite-Assignment_1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Assignment_1">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="interaction.Draggable" hash-for-method="dragContainedParent(Cursor style)">dragContainedParent(Cursor style)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="interaction.Draggable" hash-for-method="dragMeAround(100, 70, Cursor style)">dragMeAround(100, 70, Cursor style)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="interaction.Draggable" hash-for-method="dragWithInBox(Cursor style)">dragWithInBox(Cursor style)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="interaction.Draggable" hash-for-method="horzontalDragOnly(100, 70, Cursor style)">horzontalDragOnly(100, 70, Cursor style)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="interaction.Draggable" hash-for-method="verticalDragOnly(100, 70, Cursor style)">verticalDragOnly(100, 70, Cursor style)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Assignment_1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Assignment_1" class="hide-methods passed suite-Assignment_1"> (hide)</a> <!-- hide-methods passed suite-Assignment_1 -->
+                      <a href="#" panel-name="suite-Assignment_1" class="show-methods passed suite-Assignment_1"> (show)</a> <!-- show-methods passed suite-Assignment_1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Assignment_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="landing.Landing" hash-for-method="boxForSection(Widget)">boxForSection(Widget)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="interaction.CursorStyle" hash-for-method="centerCursorDrag(Cursor style, 100, 70)">centerCursorDrag(Cursor style, 100, 70)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="login.Login" hash-for-method="elementVerification">elementVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="interaction.Draggable" hash-for-method="isinDraggable">isinDraggable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="login.Login" hash-for-method="openBrowser(chrome, live)">openBrowser(chrome, live)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="interaction.Draggable" hash-for-method="selectFeature(Cursor style)">selectFeature(Cursor style)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="landing.Landing" hash-for-method="selectTile(Draggable)">selectTile(Draggable)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="login.Login" hash-for-method="setLoginDetails(MIcK, 9511999070, shivam.raghuwanshi@amla.io, India, Bangalore, 9Rules, 9rules@WAY2)">setLoginDetails(MIcK, 9511999070, shivam.raghuwanshi@amla.io, India, Bangalore, 9Rules, 9rules@WAY2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="landing.Landing" hash-for-method="verifyAllSections">verifyAllSections</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="landing.Landing" hash-for-method="verifyAllTiles">verifyAllTiles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="landing.Landing" hash-for-method="verifyBoxesCount">verifyBoxesCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Assignment_1" title="landing.Landing" hash-for-method="verifySectionCount">verifySectionCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Assignment_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Assignment_1" class="panel Assignment_1">
+          <div class="suite-Assignment_1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">interaction.Draggable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragContainedParent(Cursor style)">
+                  </a> <!-- dragContainedParent(Cursor style) -->
+                  <span class="method-name">dragContainedParent</span>
+                  <span class="parameters">(Cursor style)</span>
+                  <div class="stack-trace">org.testng.SkipException: The Constrain movement Functionality is not selected for the execution
+	at interaction.Draggable.dragContainedParent(Draggable.java:137)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragMeAround(100, 70, Cursor style)">
+                  </a> <!-- dragMeAround(100, 70, Cursor style) -->
+                  <span class="method-name">dragMeAround</span>
+                  <span class="parameters">(100, 70, Cursor style)</span>
+                  <div class="stack-trace">org.testng.SkipException: The Default Functionality is not selected for the execution
+	at interaction.Draggable.dragMeAround(Draggable.java:64)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragWithInBox(Cursor style)">
+                  </a> <!-- dragWithInBox(Cursor style) -->
+                  <span class="method-name">dragWithInBox</span>
+                  <span class="parameters">(Cursor style)</span>
+                  <div class="stack-trace">org.testng.SkipException: The Constrain movement Functionality is not selected for the execution
+	at interaction.Draggable.dragWithInBox(Draggable.java:120)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="horzontalDragOnly(100, 70, Cursor style)">
+                  </a> <!-- horzontalDragOnly(100, 70, Cursor style) -->
+                  <span class="method-name">horzontalDragOnly</span>
+                  <span class="parameters">(100, 70, Cursor style)</span>
+                  <div class="stack-trace">org.testng.SkipException: The Constrain movement Functionality is not selected for the execution
+	at interaction.Draggable.horzontalDragOnly(Draggable.java:102)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verticalDragOnly(100, 70, Cursor style)">
+                  </a> <!-- verticalDragOnly(100, 70, Cursor style) -->
+                  <span class="method-name">verticalDragOnly</span>
+                  <span class="parameters">(100, 70, Cursor style)</span>
+                  <div class="stack-trace">org.testng.SkipException: The Constrain movement Functionality is not selected for the execution
+	at interaction.Draggable.verticalDragOnly(Draggable.java:83)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Assignment_1-class-skipped -->
+          <div class="suite-Assignment_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">interaction.CursorStyle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="centerCursorDrag(Cursor style, 100, 70)">
+                  </a> <!-- centerCursorDrag(Cursor style, 100, 70) -->
+                  <span class="method-name">centerCursorDrag</span>
+                  <span class="parameters">(Cursor style, 100, 70)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Assignment_1-class-passed -->
+          <div class="suite-Assignment_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">landing.Landing</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="boxForSection(Widget)">
+                  </a> <!-- boxForSection(Widget) -->
+                  <span class="method-name">boxForSection</span>
+                  <span class="parameters">(Widget)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectTile(Draggable)">
+                  </a> <!-- selectTile(Draggable) -->
+                  <span class="method-name">selectTile</span>
+                  <span class="parameters">(Draggable)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllSections">
+                  </a> <!-- verifyAllSections -->
+                  <span class="method-name">verifyAllSections</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllTiles">
+                  </a> <!-- verifyAllTiles -->
+                  <span class="method-name">verifyAllTiles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBoxesCount">
+                  </a> <!-- verifyBoxesCount -->
+                  <span class="method-name">verifyBoxesCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySectionCount">
+                  </a> <!-- verifySectionCount -->
+                  <span class="method-name">verifySectionCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Assignment_1-class-passed -->
+          <div class="suite-Assignment_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">interaction.Draggable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isinDraggable">
+                  </a> <!-- isinDraggable -->
+                  <span class="method-name">isinDraggable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectFeature(Cursor style)">
+                  </a> <!-- selectFeature(Cursor style) -->
+                  <span class="method-name">selectFeature</span>
+                  <span class="parameters">(Cursor style)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Assignment_1-class-passed -->
+          <div class="suite-Assignment_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="elementVerification">
+                  </a> <!-- elementVerification -->
+                  <span class="method-name">elementVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowser(chrome, live)">
+                  </a> <!-- openBrowser(chrome, live) -->
+                  <span class="method-name">openBrowser</span>
+                  <span class="parameters">(chrome, live)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setLoginDetails(MIcK, 9511999070, shivam.raghuwanshi@amla.io, India, Bangalore, 9Rules, 9rules@WAY2)">
+                  </a> <!-- setLoginDetails(MIcK, 9511999070, shivam.raghuwanshi@amla.io, India, Bangalore, 9Rules, 9rules@WAY2) -->
+                  <span class="method-name">setLoginDetails</span>
+                  <span class="parameters">(MIcK, 9511999070, shivam.raghuwanshi@amla.io, India, Bangalore, 9Rules, 9rules@WAY2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Assignment_1-class-passed -->
+        </div> <!-- panel Assignment_1 -->
+        <div panel-name="test-xml-Assignment_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Mahesh\Documents\GitHub\Git-Way2\maven_way2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Assignment 1&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;log-in&quot;&gt;
+    &lt;parameter name=&quot;country&quot; value=&quot;India&quot;/&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;Bangalore&quot;/&gt;
+    &lt;parameter name=&quot;y-axis Displacement&quot; value=&quot;70&quot;/&gt;
+    &lt;parameter name=&quot;browserURl&quot; value=&quot;http://way2automation.com/way2auto_jquery/index.php&quot;/&gt;
+    &lt;parameter name=&quot;Tile&quot; value=&quot;Draggable&quot;/&gt;
+    &lt;parameter name=&quot;Section&quot; value=&quot;Widget&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;live&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;9rules@WAY2&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;9511999070&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;MIcK&quot;/&gt;
+    &lt;parameter name=&quot;Draggabel_Feature&quot; value=&quot;Cursor style&quot;/&gt;
+    &lt;parameter name=&quot;x-axis Displacement&quot; value=&quot;100&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;shivam.raghuwanshi@amla.io&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;9Rules&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;login.Login&quot;/&gt;
+      &lt;class name=&quot;landing.Landing&quot;/&gt;
+      &lt;class name=&quot;interaction.Draggable&quot;/&gt;
+      &lt;class name=&quot;interaction.CursorStyle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- log-in --&gt;
+&lt;/suite&gt; &lt;!-- Assignment 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Assignment_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Assignment 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">log-in (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Assignment_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Assignment 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Assignment_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Assignment 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Assignment_1');
+function tableData_Assignment_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'openBrowser')
+data.setCell(0, 2, 'login.Login')
+data.setCell(0, 3, 12476);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'setLoginDetails')
+data.setCell(1, 2, 'login.Login')
+data.setCell(1, 3, 2208);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'selectTile')
+data.setCell(2, 2, 'landing.Landing')
+data.setCell(2, 3, 1831);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'elementVerification')
+data.setCell(3, 2, 'login.Login')
+data.setCell(3, 3, 1034);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAllSections')
+data.setCell(4, 2, 'landing.Landing')
+data.setCell(4, 3, 1028);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAllTiles')
+data.setCell(5, 2, 'landing.Landing')
+data.setCell(5, 3, 1012);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyBoxesCount')
+data.setCell(6, 2, 'landing.Landing')
+data.setCell(6, 3, 741);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'centerCursorDrag')
+data.setCell(7, 2, 'interaction.CursorStyle')
+data.setCell(7, 3, 578);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'boxForSection')
+data.setCell(8, 2, 'landing.Landing')
+data.setCell(8, 3, 329);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectFeature')
+data.setCell(9, 2, 'interaction.Draggable')
+data.setCell(9, 3, 105);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifySectionCount')
+data.setCell(10, 2, 'landing.Landing')
+data.setCell(10, 3, 80);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'isinDraggable')
+data.setCell(11, 2, 'interaction.Draggable')
+data.setCell(11, 3, 78);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verticalDragOnly')
+data.setCell(12, 2, 'interaction.Draggable')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'dragWithInBox')
+data.setCell(13, 2, 'interaction.Draggable')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'dragContainedParent')
+data.setCell(14, 2, 'interaction.Draggable')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'horzontalDragOnly')
+data.setCell(15, 2, 'interaction.Draggable')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'dragMeAround')
+data.setCell(16, 2, 'interaction.Draggable')
+data.setCell(16, 3, 1);
+window.suiteTableData['Assignment_1']= { tableData: data, tableDiv: 'times-div-Assignment_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Assignment_1">
+              </div> <!-- times-div-Assignment_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Assignment_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Assignment 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Assignment_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Assignment_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openBrowser(chrome, live)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">elementVerification</span>
+                <span class="method-start">12485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setLoginDetails(MIcK, 9511999070, shivam.raghuwanshi@amla.io, India, Bangalore, 9Rules, 9rules@WAY2)</span>
+                <span class="method-start">13523 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">landing.Landing</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySectionCount</span>
+                <span class="method-start">15736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBoxesCount</span>
+                <span class="method-start">15820 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAllSections</span>
+                <span class="method-start">16566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAllTiles</span>
+                <span class="method-start">17597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">boxForSection(Widget)</span>
+                <span class="method-start">18613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectTile(Draggable)</span>
+                <span class="method-start">18944 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">interaction.Draggable</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isinDraggable</span>
+                <span class="method-start">20777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectFeature(Cursor style)</span>
+                <span class="method-start">20858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dragMeAround(100, 70, Cursor style)</span>
+                <span class="method-start">20968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verticalDragOnly(100, 70, Cursor style)</span>
+                <span class="method-start">20972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">horzontalDragOnly(100, 70, Cursor style)</span>
+                <span class="method-start">20976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dragWithInBox(Cursor style)</span>
+                <span class="method-start">20981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dragContainedParent(Cursor style)</span>
+                <span class="method-start">20986 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">interaction.CursorStyle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">centerCursorDrag(Cursor style, 100, 70)</span>
+                <span class="method-start">20989 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

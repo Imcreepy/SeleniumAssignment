@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Assignment 1]">
+  <test thread-count="5" name="log-in(failed)">
+    <parameter name="country" value="India"/>
+    <parameter name="city" value="Bangalore"/>
+    <parameter name="y-axis Displacement" value="70"/>
+    <parameter name="browserURl" value="http://way2automation.com/way2auto_jquery/index.php"/>
+    <parameter name="Tile" value="Draggable"/>
+    <parameter name="Section" value="Widget"/>
+    <parameter name="url" value="live"/>
+    <parameter name="password" value="9rules@WAY2"/>
+    <parameter name="phone" value="9511999070"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="name" value="MIcK"/>
+    <parameter name="Draggabel_Feature" value="Cursor style"/>
+    <parameter name="x-axis Displacement" value="100"/>
+    <parameter name="email" value="shivam.raghuwanshi@amla.io"/>
+    <parameter name="username" value="9Rules"/>
+    <classes>
+      <class name="interaction.Draggable">
+        <methods>
+          <include name="verticalDragOnly" invocation-numbers="0"/>
+          <include name="dragMeAround" invocation-numbers="0"/>
+          <include name="dragContainedParent" invocation-numbers="0"/>
+          <include name="dragWithInBox" invocation-numbers="0"/>
+          <include name="horzontalDragOnly" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- interaction.Draggable -->
+    </classes>
+  </test> <!-- log-in(failed) -->
+</suite> <!-- Failed suite [Assignment 1] -->

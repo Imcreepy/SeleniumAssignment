@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Example test run]">
+  <test thread-count="5" name="Simple Test(failed)">
+    <parameter name="country" value="India"/>
+    <parameter name="password" value="9rules@WAY2"/>
+    <parameter name="phone" value="9511999070"/>
+    <parameter name="city" value="Bangalore"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserURl" value="http://way2automation.com/way2auto_jquery/index.php"/>
+    <parameter name="name" value="MIcK"/>
+    <parameter name="url" value="live"/>
+    <parameter name="email" value="shivam.raghuwanshi@amla.io"/>
+    <parameter name="username" value="9Rules"/>
+    <classes>
+      <class name="login_setup.SetLogin">
+        <methods>
+          <include name="setLoginDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- login_setup.SetLogin -->
+    </classes>
+  </test> <!-- Simple Test(failed) -->
+</suite> <!-- Failed suite [Example test run] -->

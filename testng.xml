@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<!-- Pending ||| interaction.CursorStyle > Cursorstyle mid point for precision -->
+
+<suite name="Assignment 1">
+<!--  	The test for all the user log-in till landing page -->
+ 	<test name="log-in">
+  		<parameter name="browser" value="chrome"/>
+	  	<parameter name="url"  value="live" />	
+	  	<parameter name="username" value="mukul.chaudhari@mrrsoft.com"/>
+	  	<parameter name="password"  value="admin@123" />	
+	  	<classes>
+	  		<class name="login.Login"/>	
+	    </classes>
+  </test>
+</suite>

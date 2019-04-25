@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="DraggableCount" value="param-val-not-found"/>
+  <parameter name="MouseKeyboardClass" value="param-val-not-found"/>
+  <parameter name="y-axis Displacement" value="param-val-not-found"/>
+  <parameter name="Draggabel_Feature" value="param-val-not-found"/>
+  <parameter name="x-axis Displacement" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="interaction.DraggabelSortable">
+        <methods>
+          <include name="centerCursorDrag"/>
+        </methods>
+      </class> <!-- interaction.DraggabelSortable -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
