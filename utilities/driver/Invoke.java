@@ -1,4 +1,4 @@
-package driver1;
+package driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -54,7 +54,7 @@ public class Invoke {
 			switch(url.toLowerCase())
 			{
 				case "live":
-					webDriver.get("http://stageadmin.artifi.net/Dashboard?divisionId=28");
+					webDriver.get("http://admin9x.znodellc.com/");
 					break;
 				default:
 					System.out.println("Can not able to get URL");

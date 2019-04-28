@@ -9,10 +9,12 @@
  	<test name="log-in">
   		<parameter name="browser" value="chrome"/>
 	  	<parameter name="url"  value="live" />	
-	  	<parameter name="username" value="mukul.chaudhari@mrrsoft.com"/>
-	  	<parameter name="password"  value="admin@123" />	
+	  	<parameter name="username" value="admin@znode.com"/>
+	  	<parameter name="password"  value="admin12345" />	
 	  	<classes>
 	  		<class name="login.Login"/>	
+	  		
 	    </classes>
   </test>
+  
 </suite>

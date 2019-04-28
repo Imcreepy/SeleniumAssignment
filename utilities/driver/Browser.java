@@ -1,4 +1,4 @@
-package driver1;
+package driver;
 
 public class Browser {
 

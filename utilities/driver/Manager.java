@@ -1,4 +1,4 @@
-package driver1;
+package driver;
 
 import java.awt.AWTException;
 import java.awt.Robot;

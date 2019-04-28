@@ -4,8 +4,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import driver1.Browser;
-import driver1.Invoke;
+import driver.Browser;
+import driver.Invoke;
 import loginlanding.LoginPage;
 
 public class Login{
@@ -32,5 +32,29 @@ public class Login{
 		loginPage = PageFactory.initElements(Invoke.webDriver,LoginPage.class);
 		loginPage.setLoginDetails(username, password);		
 	}// End of details page
+	
+	@Test(priority=3)
+	public void clickLogIn()
+	{
+		loginPage.clickLogIn();
+	}
+	
+	@Test(priority=4)
+	public void clickLaterButton()
+	{
+		loginPage.laterButtonPopUp();
+	}
+	
+	@Test(priority=5)
+	public void Navigate()
+	{
+		loginPage.NavigateToProducts();
+	}
+	
+	@Test(priority=6)
+	public void AddNewProduct()
+	{
+		loginPage.AddNewProduct();
+	}
 	
 }// End of set browser
